@@ -3,5 +3,4 @@ google-generativeai
 Pillow
 pandas
 openpyxl\
-streamlit
 python-docx
