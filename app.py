@@ -249,8 +249,7 @@ if st.button("🚀 SOẠN GIÁO ÁN NGAY"):
     else:
         try:
             with st.spinner('AI đang soạn giáo án (Times New Roman 14pt, A4, Căn lề chuẩn)...'):
-                model = genai.GenerativeModel('gemini-2.5-flash-lite-preview-09-2025')
-                
+                model = genai.GenerativeModel('gemini-1.5-flash')
                 # --- PROMPT CHI TIẾT CỦA THẦY (BẢN GỐC ĐẦY ĐỦ) ---
                 prompt_instruction = f"""
                 Đóng vai là một Giáo viên Tiểu học giỏi, am hiểu chương trình GDPT 2018.
